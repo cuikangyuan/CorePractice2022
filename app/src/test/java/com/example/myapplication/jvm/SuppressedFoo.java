@@ -18,8 +18,7 @@ public class SuppressedFoo implements AutoCloseable {
 
     @Test
     public void test() {
-        Method method
-                method.setAccessible();
+
         try (SuppressedFoo foo0 = new SuppressedFoo("Foo0"); // try-with-resources
              SuppressedFoo foo1 = new SuppressedFoo("Foo1");
              SuppressedFoo foo2 = new SuppressedFoo("Foo2")) {
