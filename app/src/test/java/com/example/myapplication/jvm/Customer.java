@@ -1,5 +1,5 @@
 package com.example.myapplication.jvm;
 
-public interface  Customer {
+public interface Customer {
     boolean isVIP();
 }
