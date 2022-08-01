@@ -1,5 +1,7 @@
 package com.example.myapplication.jvm;
 
+import java.util.HashMap;
+
 public class ExceptionFoo {
     private int tryBlock;
     private int catchBlock;
@@ -15,6 +17,9 @@ public class ExceptionFoo {
             finallyBlock = 2;
         }
         methodExit = 3;
+
+        HashMap hashMap = new HashMap();
+
     }
 }
 /*
